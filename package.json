@@ -1,0 +1,46 @@
+{
+  "name": "levenshteinjs",
+  "version": "0.0.1",
+  "description": "Calculate the Levenshtein distance between two strings.",
+  "main": "levenshtein.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "levenshtein.js"
+  ],
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/levenshtein"
+  },
+  "keywords": [
+    "levenshtein",
+    "distance",
+    "algorithm",
+    "string",
+    "nlp",
+    "hamming"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/levenshtein/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/levenshtein/issues"
+  },
+  "homepage": "https://github.com/miguelmota/levenshtein",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
