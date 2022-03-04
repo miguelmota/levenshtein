@@ -4,7 +4,7 @@ const levenshteinDistance = require('../levenshtein')
 test('levenshtein', function (t) {
   'use strict'
 
-  t.plan(12)
+  t.plan(13)
 
   t.equal(levenshteinDistance(), null)
   t.equal(levenshteinDistance({}, 'foo'), null)
