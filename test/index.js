@@ -18,4 +18,5 @@ test('levenshtein', function (t) {
   t.equal(levenshteinDistance('flaw', 'lawn'), 2)
   t.equal(levenshteinDistance('kitten', 'sitting'), 3)
   t.equal(levenshteinDistance('foobar', 'fudbaz'), 3)
+  t.equal(levenshteinDistance('asdf', 'qwerasd'), 5)
 })
