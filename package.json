@@ -1,6 +1,6 @@
 {
   "name": "levenshteinjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculate the Levenshtein distance between two strings.",
   "main": "levenshtein.js",
   "directories": {
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/miguelmota/levenshtein",
   "devDependencies": {
-    "tape": "^3.0.3"
+    "tape": "^5.5.2"
   },
   "engines": {
     "node": ">=8"
