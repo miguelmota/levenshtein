@@ -22,7 +22,7 @@
     }
 
     return Math.min(
-      f(s, sl-1, t, tl-1) + 1 ,
+      f(s, sl-1, t, tl) + 1 ,
       f(s, sl, t, tl-1) + 1,
       f(s, sl-1, t, tl-1) + cost
     )
